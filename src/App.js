@@ -2,6 +2,8 @@ import React from 'react'
 import Navbar from './components/Navbar';
 import { Helmet } from 'react-helmet';
 import WebIcon from './components/Images/webicon.png';
+import Landing from './components/Landing';
+import Container from './components/Container';
 import './App.css';
 
 function App() {
@@ -19,6 +21,8 @@ function App() {
       <link rel="icon" href={WebIcon}></link>
    </Helmet>
    <Navbar />
+   <Landing />
+   <Container >asdasasd</Container>
    </div>
   );
 }

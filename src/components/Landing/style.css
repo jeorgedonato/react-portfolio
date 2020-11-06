@@ -1,0 +1,9 @@
+.landing-container{
+  z-index: 0;
+  position: relative;
+  background-image: none;
+  background-attachment: scroll;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-image: url('../Images/busy-street.jpg');
+}
