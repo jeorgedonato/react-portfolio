@@ -1,6 +1,49 @@
 .intro-text{
   color: #ffffff;
-  font-weight: 300;
+  font-weight: bold;
   font-size: 3.25rem;
   line-height: 1.2;
+  font-family: 'Poppins', sans-serif;
+  min-width: 100%;
 }
+
+.landing-media-container{
+  max-width: 100%;
+}
+
+@media screen and (min-width: 576px){
+  .landing-text-container {
+      max-width: 540px;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .landing-text-container {
+      max-width: 720px;
+  }
+}
+
+@media screen and (min-width: 992px){
+  .landing-text-container {
+      max-width: 960px;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .landing-text-container {
+      max-width: 1140px;
+  }
+}
+
+.landing-text-container{
+  width: 100%;
+  position: relative;
+  z-index: 100;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto; 
+  margin-left: auto;
+  text-align: left;
+}
+
+

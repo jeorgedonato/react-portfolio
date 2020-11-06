@@ -10,8 +10,8 @@ const Landing = () => {
   return (
     <>
       <Container className="landing-container">
-        <LandingText />
         <Overlay />
+        <LandingText />
       </Container>
     </>
   );

@@ -9,12 +9,14 @@ const Navbar = () => {
   let initialNavClass = ["nav-links"];
   const [navClass,setNavClass] = useState("nav-active");
   const [navClassNames,setNavClassNames] = useState(initialNavClass);
-  const [scrollVert,setScrollVert] = useState(null);
+  // const [scrollVert,setScrollVert] = useState(null);
   
 
   const navSlide = (e) => {
-    setNavClass(!navClass ? "nav-active" : "");
+    setNavClass(!navClass ? "nav-active nav-links-active" : "");
     setNavClassNames([...initialNavClass, navClass]);
+    ulNav.current.classList.toggle("asasd")
+    console.log(ulNav.current.classList)
     const navLinks = ulNav.current.children;
 
     let navI = 0;
