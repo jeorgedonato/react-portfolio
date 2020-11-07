@@ -16,7 +16,7 @@ const Navbar = () => {
     setNavClass(!navClass ? "nav-active nav-links-active" : "");
     setNavClassNames([...initialNavClass, navClass]);
     ulNav.current.classList.toggle("asasd")
-    console.log(ulNav.current.classList)
+    // console.log(ulNav.current.classList)
     const navLinks = ulNav.current.children;
 
     let navI = 0;
@@ -30,7 +30,23 @@ const Navbar = () => {
     }
     //Burger animation
     e.currentTarget.classList.toggle("toggle");
+    // if( navRef.current.classList.contains("transparent-nav")){
+      // console.log(navRef.current.classList)
+    if(window.scrollY < 100){
+     navRef.current.classList.toggle("transparent-nav");
+    }
+    // }
   };
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if(window.scrollY >= 100){
+        navRef.current.classList.remove("transparent-nav");
+      }else{
+        navRef.current.classList.add("transparent-nav");
+      }
+    });
+  });
 
   
 

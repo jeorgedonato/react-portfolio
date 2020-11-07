@@ -115,3 +115,7 @@ nav{
 .transparent-nav{
   background: none;
 }
+
+.transparent-nav ul{
+  background: none;
+}
