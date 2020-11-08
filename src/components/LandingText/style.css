@@ -5,38 +5,22 @@
   line-height: 1.2;
   font-family: 'Poppins', sans-serif;
   min-width: 100%;
+  line-height: 1.5;
+}
+
+.animation-text{
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 2rem;
+  font-family: 'Poppins', sans-serif;
 }
 
 .landing-media-container{
   max-width: 100%;
 }
 
-@media screen and (min-width: 576px){
-  .landing-text-container {
-      max-width: 540px;
-  }
-}
-
-@media screen and (min-width: 768px){
-  .landing-text-container {
-      max-width: 720px;
-  }
-}
-
-@media screen and (min-width: 992px){
-  .landing-text-container {
-      max-width: 960px;
-  }
-}
-
-@media screen and (min-width: 1200px){
-  .landing-text-container {
-      max-width: 1140px;
-  }
-}
-
 .landing-text-container{
-  width: 100%;
+  /* width: 100%;
   position: relative;
   z-index: 100;
   padding-right: 15px;
@@ -44,6 +28,187 @@
   margin-right: auto; 
   margin-left: auto;
   text-align: left;
+  top: 50%; */
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 80%;
+  height: 400px;
+  position: absolute; /*Can also be `fixed`*/
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
 }
+
+/* @media screen and (min-width: 300px){
+  .landing-text-container{
+    max-width: 100%;
+    width: 95%;
+    height: 200px;
+  }
+
+  .intro-text{
+    font-size: 1.5rem;
+  }
+
+  .animation-text{
+    font-size: 1.1rem;
+  }
+
+} */
+
+@media screen and (min-width: 576px){
+  .landing-text-container {
+      max-width: 540px;
+    /* width: 95%; */
+    height: 200px;
+    text-align: center;
+  }
+
+  .intro-text{
+    font-size: 2rem;
+  }
+
+   .animation-text{
+    font-size: 1.75rem;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .landing-text-container {
+      max-width: 720px;
+  }
+
+  .intro-text{
+    font-size: 2.5rem;
+  }
+
+   .animation-text{
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 992px){
+  .landing-text-container {
+      max-width: 960px;
+  }
+
+   .intro-text{
+    font-size: 3rem;
+  }
+
+   .animation-text{
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .landing-text-container {
+      max-width: 1140px;
+  }
+
+   .intro-text{
+    font-size: 3.25rem;
+  }
+
+   .animation-text{
+    font-size: 2rem;
+  }
+}
+
+
+@media screen and (max-width: 575px){
+  .landing-text-container{
+    max-width: 100%;
+    width: 95%;
+    height: 200px;
+    text-align: center;
+  }
+
+  .intro-text{
+    font-size: 1.7rem;
+  }
+
+  .animation-text{
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 321px){
+  .landing-text-container{
+    max-width: 100%;
+    width: 95%;
+    height: 200px;
+    text-align: center;
+  }
+
+  .intro-text{
+    font-size: 1.5rem;
+  }
+
+  .animation-text{
+    font-size: 1.20rem;
+  }
+}
+
+@keyframes text-2nd {
+  0%, 50%, 100% {
+    width: 0;
+  }
+  
+  60%, 90% {
+    width: 11em;
+  }
+}
+@keyframes text-1st {
+  0%, 50%, 100% {
+    width: 0;
+  }
+  10%, 40% {
+    width: 14.5em;
+  }
+}
+
+.text-1st {
+  animation: text-1st;
+}
+.text-2nd {
+  animation: text-2nd;
+}
+
+@keyframes caret {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.text-1st, .text-2nd {
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+  position: relative;
+  animation-duration: 15s;
+  animation-timing-function: steps(25, end);
+  animation-iteration-count: infinite;
+}
+
+.text-1st::after, .text-2nd::after{
+  content: "|";
+  color: #8ecccc;
+  position: absolute;
+  right: 0;
+  animation: caret infinite;
+  animation-duration: 1s;
+  animation-timing-function: steps(1, end);
+}
+
+
 
 

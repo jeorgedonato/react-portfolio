@@ -1,0 +1,22 @@
+.about-socials{
+  line-height: 1.5;
+}
+
+.about-socials a{
+  font-size: 3.25rem;
+  color:#8ecccc;
+}
+
+.about-socials a:hover{
+  /* font-size: 3.25rem; */
+  color:#8ecccc !important; 
+}
+
+.about-socials a:nth-child(1){
+  padding-right: 15px;
+  color:black;
+}
+
+.about-socials a:nth-child(2){
+  color: #54a3d8;
+}

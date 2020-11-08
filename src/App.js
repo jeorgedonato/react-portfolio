@@ -3,7 +3,7 @@ import Navbar from './components/Navbar';
 import { Helmet } from 'react-helmet';
 import WebIcon from './components/Images/webicon.png';
 import Landing from './components/Landing';
-import Container from './components/Container';
+import About from './components/About';
 import './App.css';
 
 function App() {
@@ -19,10 +19,11 @@ function App() {
       <meta property="og:description" content="Full Stack Web Developer" />
       <title>Jeorge Donato | Full Stack Web Developer</title>
       <link rel="icon" href={WebIcon}></link>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"></link>
    </Helmet>
    <Navbar />
    <Landing />
-   <Container >asdasasd</Container>
+   <About />
    </div>
   );
 }
