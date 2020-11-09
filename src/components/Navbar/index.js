@@ -11,6 +11,13 @@ const Navbar = () => {
   const [navClassNames,setNavClassNames] = useState(initialNavClass);
   // const [scrollVert,setScrollVert] = useState(null);
   
+  const scrollCheck = () => {
+    if(window.scrollY < 100){
+     navRef.current.classList.toggle("transparent-nav");
+    }
+  };
+
+  
 
   const navSlide = (e) => {
     setNavClass(!navClass ? "nav-active nav-links-active" : "");
@@ -32,13 +39,12 @@ const Navbar = () => {
     e.currentTarget.classList.toggle("toggle");
     // if( navRef.current.classList.contains("transparent-nav")){
       // console.log(navRef.current.classList)
-    if(window.scrollY < 100){
-     navRef.current.classList.toggle("transparent-nav");
-    }
+    scrollCheck();
     // }
   };
 
   useEffect(() => {
+    // scrollCheck();
     window.addEventListener("scroll", () => {
       if(window.scrollY >= 100){
         navRef.current.classList.remove("transparent-nav");
