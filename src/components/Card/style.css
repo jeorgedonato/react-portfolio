@@ -1,0 +1,43 @@
+.card{
+  flex: 0 0 33.3%;
+  max-width: 33.3%;
+}
+
+.card-img{
+  text-align: center;
+  flex-shrink: 0;
+  width: auto;
+  vertical-align: middle;
+  border-style: none;
+}
+
+.card-img img{
+  width: 260px;
+  height: 260px;
+}
+
+.card-box{
+  color: white;
+  padding-top: 1.5rem;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width : 1024px){
+    .card{
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width : 425px){
+    .card{
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .projects-content-container{
+    width: 420px;
+  }
+}
