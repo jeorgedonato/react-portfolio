@@ -1,11 +1,12 @@
 import React,{useRef, useState, useEffect} from 'react';
 import './style.css';
-import Banner from '../Images/portfolio-banner.jpg';
+// import Banner from '../Images/portfolio-banner.jpg';
 import Listlinks from '../Listlinks';
   
 const Navbar = () => {
   const ulNav = useRef(null);
   const navRef = useRef(null);
+  const burgerNav = useRef(null);
   let initialNavClass = ["nav-links"];
   const [navClass,setNavClass] = useState("nav-active");
   const [navClassNames,setNavClassNames] = useState(initialNavClass);
@@ -16,6 +17,13 @@ const Navbar = () => {
      navRef.current.classList.toggle("transparent-nav");
     }
   };
+
+  // const handleClickList = e => {
+  //   e.preventDefault();
+  //   console.log("clicked")
+  //   setNavClassNames(initialNavClass);
+  //   burgerNav.current.classList.remove("toggle")
+  // };
 
   
 
@@ -63,12 +71,12 @@ const Navbar = () => {
           <h4>Jeorge Donato</h4>
           </div>
           <ul className={navClassNames.join(" ")} ref={ulNav}>
-            <Listlinks title="Home" />
-            <Listlinks title="About" />
-            <Listlinks title="Projects" />
-            <Listlinks title="About" />
+            <Listlinks title="Home" location="home" />
+            <Listlinks title="About" location="about-container" />
+            <Listlinks title="Projects" location="projects-container" />
+            <Listlinks title="Skills" location="skills-container" />
           </ul>
-          <div className="burger" onClick={e=> navSlide(e)}>
+          <div className="burger" onClick={e=> navSlide(e)} ref={burgerNav}>
             <div className="line1"></div>
             <div className="line2"></div>
             <div className="line3"></div>

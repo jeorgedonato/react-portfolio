@@ -5,6 +5,8 @@ import WebIcon from './components/Images/webicon.png';
 import Landing from './components/Landing';
 import About from './components/About';
 import Projects from './components/Projects';
+import Skills from './components/Skills';
+import Footer from './components/Footer';
 import './App.css';
 
 function App() {
@@ -26,6 +28,8 @@ function App() {
     <Landing />
     <About />
     <Projects />
+    <Skills />
+    <Footer />
    </div>
   );
 }
