@@ -60,6 +60,12 @@
   display:none; /* hide by default */
 }
 
+@media screen and (max-width : 770px){
+  .tooltip:before {
+  width: 200px;
+}
+}
+
 .tooltip:after {
   content: "";
   position:absolute;
