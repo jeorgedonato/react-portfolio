@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+<h2 align="center">React Portfolio</h2>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Github size badge](https://img.shields.io/github/repo-size/jeorgedonato/react-portfolio) ![Github size badge](https://img.shields.io/github/languages/top/jeorgedonato/react-portfolio)
 
-## Available Scripts
+<p align="center">A responsive and user friendly portfolio.</p>
 
-In the project directory, you can run:
+##### Working Link : https://jeorge-react.herokuapp.com/
 
-### `yarn start`
+### Objective 
+To make a responsive web portfolio that uses React JS.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Technologies Used:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **HTML5**
+- **CSS3**
+- **Javascript**
+- **JSX**
 
-### `yarn test`
+### Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+``` sh
+"npm install" to install node dependecies
+```
 
-### `yarn build`
+### Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+``` sh
+"npm start" to run the script.
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### License
+```sh
+ISC License (ISC)
+Copyright 2020 Jeorge Janil Donato
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
 
-### `yarn eject`
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Contributing
+Feel free to contribute.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Questions
+Ask me a question. </br>
+![Github Profile](https://github.com/jeorgedonato.png?size=150) </br>
+**https://github.com/jeorgedonato**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+---
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**Screenshots**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Home Screenshot](/public/ProjectImages/home-screenshot.png)
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<h5 align="center">© 2020 Jeorge Janil Donato</h5>
