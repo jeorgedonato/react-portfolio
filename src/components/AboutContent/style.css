@@ -69,6 +69,7 @@
 @media screen and (max-width : 425px){
   .about-content-container{
     padding: 25px 12px 12px 12px;
+    width: 90%;
   }
 
   .about-socials a{
@@ -80,7 +81,7 @@
   }
 
   .p-about{
-    font-size: 13px !important;
+    font-size: 14px !important;
   }
 
 }

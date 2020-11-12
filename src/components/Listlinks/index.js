@@ -5,10 +5,10 @@ const Listlinks = props => {
 
   const clickHandler = e => {
     let targ = e.target.dataset.href;
-    console.log(targ)
+    // console.log(targ)
     if(targ === "home") {return window.scrollTo(0, 0)};
     const curHref = document.querySelector(`.${targ}`);
-    console.log(curHref);
+    // console.log(curHref);
     curHref.scrollIntoView();
   };
 

@@ -18,12 +18,12 @@ const Navbar = () => {
     }
   };
 
-  // const handleClickList = e => {
-  //   e.preventDefault();
-  //   console.log("clicked")
-  //   setNavClassNames(initialNavClass);
-  //   burgerNav.current.classList.remove("toggle")
-  // };
+  const handleClickList = e => {
+    e.preventDefault();
+    // console.log("clicked")
+    // setNavClassNames(initialNavClass);
+    // burgerNav.current.classList.toggle("toggle");
+  };
 
   
 
@@ -54,7 +54,7 @@ const Navbar = () => {
   useEffect(() => {
     // scrollCheck();
     window.addEventListener("scroll", () => {
-      if(window.scrollY >= 100){
+      if(window.scrollY >= 100 || burgerNav.current.classList.contains("toggle")){
         navRef.current.classList.remove("transparent-nav");
       }else{
         navRef.current.classList.add("transparent-nav");
@@ -71,10 +71,10 @@ const Navbar = () => {
           <h4>Jeorge Donato</h4>
           </div>
           <ul className={navClassNames.join(" ")} ref={ulNav}>
-            <Listlinks title="Home" location="home" />
-            <Listlinks title="About" location="about-container" />
-            <Listlinks title="Projects" location="projects-container" />
-            <Listlinks title="Skills" location="skills-container" />
+            <Listlinks onClick={handleClickList} title="Home" location="home" />
+            <Listlinks onClick={handleClickList} title="About" location="about-container" />
+            <Listlinks onClick={handleClickList} title="Projects" location="projects-container" />
+            <Listlinks onClick={handleClickList} title="Skills" location="skills-container" />
           </ul>
           <div className="burger" onClick={e=> navSlide(e)} ref={burgerNav}>
             <div className="line1"></div>
