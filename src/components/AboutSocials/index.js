@@ -12,7 +12,7 @@ const AboutSocials = () => {
         </a><span className="separator"></span>
         <a rel="noreferrer" target="_blank" href={Resume}>
           <span className="tooltip" data-text="Download my Resume"></span>
-          <i class="fa fa-file-word-o" aria-hidden="true"></i>
+          <i className="fa fa-file-word-o" aria-hidden="true"></i>
         </a><span className="separator"></span>
         <a href="https://www.linkedin.com/in/jeorgejdonato/" target="_blank" rel="noreferrer">
           <span className="tooltip" data-text="LinkedIn Link"></span>
