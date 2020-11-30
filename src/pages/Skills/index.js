@@ -1,6 +1,6 @@
 import React from 'react';
-import Container from '../Container';
-import SkillsCard from '../SkillsCard';
+import Container from '../../components/Container';
+import SkillsCard from './SkillsCard';
 import './style.css';
 
 const Skills = () => {

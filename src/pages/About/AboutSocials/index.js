@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-import Resume from '../Resume/Donato-Jeorge-Resume.docx';
+import Resume from '../../../components/Resume/Donato-Jeorge-Resume.docx';
 
 const AboutSocials = () => {
   return (

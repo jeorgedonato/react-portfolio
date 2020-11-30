@@ -2,17 +2,12 @@ import React,{Suspense,lazy} from 'react'
 // import Navbar from './components/Navbar';
 import { Helmet } from 'react-helmet';
 import WebIcon from './components/Images/webicon.png';
-// import Landing from './components/Landing';
-// import About from './components/About';
-// import Projects from './components/Projects';
-// import Skills from './components/Skills';
-// import Footer from './components/Footer';
 import './App.css';
 
-const About  = lazy(() => import('./components/About'));
+const About  = lazy(() => import('./pages/About'));
 const Landing  = lazy(() => import('./components/Landing'));
-const Projects  = lazy(() => import('./components/Projects'));
-const Skills  = lazy(() => import('./components/Skills'));
+const Projects  = lazy(() => import('./pages/Projects'));
+const Skills  = lazy(() => import('./pages/Skills'));
 const Navbar  = lazy(() => import('./components/Navbar'));
 const Footer  = lazy(() => import('./components/Footer'));
 

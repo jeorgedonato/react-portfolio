@@ -1,10 +1,10 @@
 import React from 'react';
 import './style.css';
-import AboutPic from '../AboutPic';
-import Container from '../Container';
-import AboutContent from '../AboutContent';
-import AboutSocials from '../AboutSocials';
-import AboutParagraph from '../AboutParagraph';
+import AboutPic from './AboutPic';
+import Container from '../../components/Container';
+import AboutContent from './AboutContent';
+import AboutSocials from './AboutSocials';
+import AboutParagraph from './AboutParagraph';
 
 const About = () => {
   return (

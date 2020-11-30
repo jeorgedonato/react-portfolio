@@ -1,6 +1,6 @@
-.about-content-container{
+.about-content-container {
   /* padding-right: 15px; */
-  padding: 30px;
+  padding: 15px;
   /* padding-left: 15px; */
   width: 80%;
   /* height: 600px; */
@@ -12,77 +12,75 @@
   font-family: 'Poppins', sans-serif;
 }
 
-@media screen and (max-width : 1024px){
-  .about-content-container{
+@media screen and (max-width: 1024px) {
+  .about-content-container {
     padding: 70px 30px 30px 30px;
   }
 
-  .about-socials a{
+  .about-socials a {
     font-size: 3rem !important;
   }
 
-  .about-paragraph h1{
+  .about-paragraph h1 {
     font-size: 2rem !important;
   }
 
-  .p-about{
+  .p-about {
     font-size: 1.15rem !important;
   }
 }
 
-@media screen and (max-width : 768px){
-  .about-content-container{
+@media screen and (max-width: 768px) {
+  .about-content-container {
     padding: 45px 20px 20px 20px;
   }
 
-  .about-socials a{
+  .about-socials a {
     font-size: 2.25rem !important;
   }
 
-  .about-paragraph h1{
+  .about-paragraph h1 {
     font-size: 1.75rem !important;
   }
 
-  .p-about{
+  .p-about {
     font-size: 1.25em;
   }
 }
 
-@media screen and (max-width : 545px){
-  .about-content-container{
+@media screen and (max-width: 545px) {
+  .about-content-container {
     padding: 20px;
   }
 
-  .about-socials a{
+  .about-socials a {
     font-size: 2.25rem !important;
   }
 
-  .about-paragraph h1{
+  .about-paragraph h1 {
     font-size: 1.5rem !important;
   }
 
-  .p-about{
+  .p-about {
     font-size: 1rem;
   }
 }
 
-@media screen and (max-width : 425px){
-  .about-content-container{
+@media screen and (max-width: 425px) {
+  .about-content-container {
     padding: 25px 12px 12px 12px;
     width: 90%;
   }
 
-  .about-socials a{
+  .about-socials a {
     font-size: 2rem !important;
   }
 
-  .about-paragraph h1{
+  .about-paragraph h1 {
     font-size: 1.15rem !important;
   }
 
-  .p-about{
+  .p-about {
     font-size: 14px !important;
   }
-
 }
-

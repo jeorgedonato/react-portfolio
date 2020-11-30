@@ -1,9 +1,9 @@
 import React from 'react';
 import './style.css';
-import Container from '../Container';
-import ProjectsContent from '../ProjectsContent';
-import ProjectFlexContainer from '../ProjectFlexContainer';
-import Card from '../Card';
+import Container from '../../components/Container';
+import ProjectsContent from './ProjectsContent';
+import ProjectFlexContainer from './ProjectFlexContainer';
+import Card from '../../components/Card';
 // import Logo from '../Images/bootstocks.png';
 
 const Projects = () => {
