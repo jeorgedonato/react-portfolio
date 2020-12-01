@@ -18,7 +18,7 @@ const Projects = () => {
               repo="https://github.com/jeorgedonato/spent-smart" 
               demo="https://spentsmart.herokuapp.com/" 
               desc="Spent Smart allows users to input their monthly income and expense breakdown (along with their associated category options, such as paycheck, food, transportation, etc.)."
-              src={'/ProjectImages/burger-express.png'} />
+              src={'/ProjectImages/spentsmart.png'} />
             <Card 
               text="BootStocks" 
               repo="https://github.com/jeorgedonato/BootStocks" 
