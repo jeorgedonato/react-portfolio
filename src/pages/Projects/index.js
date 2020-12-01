@@ -14,6 +14,12 @@ const Projects = () => {
           <h2>Projects</h2>
           <ProjectFlexContainer>
             <Card 
+              text="Spent Smart" 
+              repo="https://github.com/jeorgedonato/spent-smart" 
+              demo="https://spentsmart.herokuapp.com/" 
+              desc="Spent Smart allows users to input their monthly income and expense breakdown (along with their associated category options, such as paycheck, food, transportation, etc.)."
+              src={'/ProjectImages/burger-express.png'} />
+            <Card 
               text="BootStocks" 
               repo="https://github.com/jeorgedonato/BootStocks" 
               demo="https://bootstocks.herokuapp.com/" 
@@ -37,12 +43,6 @@ const Projects = () => {
               demo="https://fathomless-dawn-59155.herokuapp.com/" 
               desc="A Full Stack Web Application that allow users to create their own workout regime along with a useful charts."
               src={'/ProjectImages/fitness-tracker.png'} />
-            <Card 
-              text="Burger Express" 
-              repo="https://github.com/jeorgedonato/burger-express" 
-              demo="https://hidden-beach-50994.herokuapp.com/" 
-              desc="A Full Stack Web Application that users can create their list of burgers."
-              src={'/ProjectImages/burger-express.png'} />
             <Card 
               text="Note Taker" 
               repo="https://github.com/jeorgedonato/note-taker" 
