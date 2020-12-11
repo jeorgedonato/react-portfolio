@@ -1,5 +1,5 @@
 import React from 'react';
-import './style.css';
+import './style.scss';
 
 const Card = props => {
   // console.log(props)
@@ -13,10 +13,10 @@ const Card = props => {
           <div className="card-overlay"></div>
           <div className="card-buttons">
             <p>{props.desc}</p>
-            <a href={props.repo} target="_blank" rel="noreferrer">
+            <a href={props.repo} className="btn-card" target="_blank" rel="noreferrer">
               Repo
           </a>
-            <a href={props.demo} target="_blank" rel="noreferrer">
+            <a href={props.demo} className="btn-card" target="_blank" rel="noreferrer">
               Demo
           </a>
           </div>
