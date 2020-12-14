@@ -1,15 +1,27 @@
-import React from 'react';
+import React, {useRef} from 'react';
 import './style.css';
 import Container from '../../components/Container';
 import ProjectsContent from './ProjectsContent';
 import ProjectFlexContainer from './ProjectFlexContainer';
 import Card from '../../components/Card';
-// import Logo from '../Images/bootstocks.png';
+import VisibilitySensor from 'react-visibility-sensor';
 
 const Projects = () => {
+
+  const projectDivAnimate = useRef(null);
+  const onChange = isVisible => {
+    // if(isVisible){
+    //   projectDivAnimate.current.style.animation = `fadeInRight 0.5s ease-in`;
+    // }else{
+    //   projectDivAnimate.current.style.animation = "";
+    // }
+  }
+
   return (
     <>
       <Container className="projects-container">
+        <VisibilitySensor onChange={onChange} partialVisibility delayedCall>
+          <div ref={projectDivAnimate}>
         <ProjectsContent>
           <h2>Projects</h2>
           <ProjectFlexContainer>
@@ -51,6 +63,8 @@ const Projects = () => {
               src={'/ProjectImages/note-taker.png'} />
           </ProjectFlexContainer>
         </ProjectsContent>
+        </div>
+        </VisibilitySensor>
       </Container>
     </>
   );

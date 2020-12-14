@@ -71,15 +71,19 @@
 
 @keyframes spinSkill{
   from {
-    transform: rotateY(0deg);
+    /* transform: scale(1); */
+    box-shadow: 3px 3px 5px 6px #ccc;
   }
   to{
-    transform: rotateY(-360deg);
+    transform: scale(1.05);
   }
 }
 
 .skills-card:hover{
-  animation: spinSkill ease-in 0.5s;
+  /* animation: spinSkill linear 0.5s; */
+  box-shadow: 5px 5px 5px 5px #888888;
+  transform: scale(1.03);
+  transition: all 0.5s ease-in-out;
 }
 
 

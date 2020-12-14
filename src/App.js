@@ -2,7 +2,7 @@ import React,{Suspense,lazy} from 'react'
 // import Navbar from './components/Navbar';
 import { Helmet } from 'react-helmet';
 import WebIcon from './components/Images/webicon.png';
-import './App.css';
+import './App.scss';
 
 const About  = lazy(() => import('./pages/About'));
 const Landing  = lazy(() => import('./components/Landing'));
