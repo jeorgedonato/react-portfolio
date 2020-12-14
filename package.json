@@ -1,5 +1,6 @@
 {
   "name": "react-portfolio",
+  "homepage": "http://jeorgedonato.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,6 +14,8 @@
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
     "react-scripts": "4.0.0",
+    "react-spring": "^8.0.27",
+    "react-visibility-sensor": "^5.1.1",
     "serve": "^11.3.2",
     "styled-components": "^5.2.1",
     "web-vitals": "^0.2.4"
