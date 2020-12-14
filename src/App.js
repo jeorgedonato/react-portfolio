@@ -20,7 +20,7 @@ function App() {
         <meta property="og:title" content="Jeorge Donato" />
         <meta name="author" content="Jeorge Donato" />
         <meta property="og:locale" content="en_US" />
-        <meta name="description" content="Full Stack Web Developer" />
+        <meta name="description" content="Jeorge Janil Donato | Full Stack Web Developer | Software Engineer" />
         <meta property="og:description" content="Full Stack Web Developer" />
         <title>Jeorge Donato | Full Stack Web Developer</title>
         <link rel="icon" href={WebIcon}></link>
