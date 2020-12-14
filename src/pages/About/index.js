@@ -12,8 +12,6 @@ const About = () => {
   const onChange = isVisible => {
     if(isVisible){
       aboutDivAnimate.current.style.animation = `fadeInLeft 0.8s ease-in-out`;
-    }else{
-      aboutDivAnimate.current.style.animation = "";
     }
   }
 
